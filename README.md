@@ -70,13 +70,6 @@ December and June show highest delay rates
 Major airports (ORD, ATL, DFW) experience high congestion
 Late aircraft and carrier delays are the biggest contributors
 
-🤖 Model Performance
-
-Model	              Accuracy	 Precision	Recall	AUC
-Logistic Regression	0.9338	   0.9324    	0.9338	0.9672
-Decision Tree      	0.9328	   0.9313   	0.9328	0.4073
-
-✅ Logistic Regression performed best overall
 
 🏗️ Architecture
 
