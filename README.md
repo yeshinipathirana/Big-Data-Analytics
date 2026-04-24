@@ -1,8 +1,7 @@
 ✈️ Big Data Analytics for Airline Delay Prediction
 📌 Overview
 
-This project applies big data analytics techniques to analyze and predict airline delays using Apache Spark and MongoDB. 
-It follows a complete data pipeline, including data ingestion, preprocessing, distributed processing, visualization, and machine learning to extract meaningful insights from large-scale flight data.
+This project applies big data analytics techniques to analyze and predict airline delays using Apache Spark and MongoDB. It follows a complete data pipeline, including data ingestion, preprocessing, distributed processing, visualization, and machine learning to extract meaningful insights from large-scale flight data.
 
 🎯 Objectives
 Analyze large-scale airline data to identify delay patterns
@@ -60,9 +59,9 @@ December and June show highest delay rates
 Major airports (ORD, ATL, DFW) experience high congestion
 Late aircraft and carrier delays are the biggest contributors
 🤖 Model Performance
-Model              	Accuracy	Precision 	Recall	AUC
-Logistic Regression	0.9338	   0.9324	    0.9338	0.9672
-Decision Tree	      0.9328	   0.9313	    0.9328	0.4073
+Model	Accuracy	Precision	Recall	AUC
+Logistic Regression	0.9338	0.9324	0.9338	0.9672
+Decision Tree	0.9328	0.9313	0.9328	0.4073
 
 ✅ Logistic Regression performed best overall
 
@@ -72,6 +71,8 @@ Storage: MongoDB (NoSQL)
 Processing: Apache Spark (Databricks)
 ML Models: Spark MLlib
 Visualization: Matplotlib & Databricks
-
-
-
+🚀 Future Improvements
+Integrate real-time data using APIs (weather, air traffic)
+Use advanced models (Random Forest, Gradient Boosting)
+Deploy model as REST API
+Enable real-time streaming with Spark + MongoDB
